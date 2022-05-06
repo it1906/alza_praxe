@@ -326,6 +326,7 @@ color: #212121;
 opacity: 1;
 line-height: 68px;
 }
+
 .clenstvi{
 margin-top: 50px;
 margin-right: 15px;
@@ -339,17 +340,24 @@ border-radius: 4px;
 opacity: 1;
 padding-left: 15px;
 padding-right: 15px;
-padding-top: 11px;
+
 }
+.clenstvi:hover{
+    box-shadow: 0px 1px 8px #0000004D;
+}
+
 #premiumObal{
     height: 69px;
 }
+
 .clenstviText{
 font-size: 14px;
 text-align: center;
 letter-spacing: 0px;
 line-height: 22px;
+padding-top: 11px;
 }
+
 .premiumClenstviTextSpan{
 color: var(--grey6-dark-text-text-in-white-button-);
 text-align: center;
@@ -406,9 +414,12 @@ width: 280px;
 height: 176px;
 background: var(--white) 0% 0% no-repeat padding-box;
 background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 1px 8px #0000004D;
+box-shadow: 0px 1px 8px #00000026;
 border-radius: 4px;
 opacity: 1;
+}
+.pobockaVarianta:hover{
+    box-shadow: 0px 1px 8px #0000004D;
 }
 .pobockaVariantaObrazky{
 margin-top: 15px;
@@ -614,7 +625,22 @@ font: normal normal normal 14px/24px Roboto;
 letter-spacing: 0px;
 opacity: 1;
 }
-
+.modreOdkazy{
+    color: var(--blue-secondary-button-bg-text-link-);
+text-align: center;
+text-decoration: underline;
+font: normal normal normal 14px/24px Roboto;
+letter-spacing: 0px;
+color: #0094E7;
+}
+.modreOdkazy:hover{
+color: var(--blue-primary-light);
+text-align: center;
+text-decoration: underline;
+font: normal normal normal 14px/24px Roboto;
+letter-spacing: 0px;
+color: #1653A4;
+}
 /*CSS pro oddil aktivace premium*/
 #aktivace{
 width: 1310px;
@@ -653,6 +679,9 @@ box-shadow: 0px 1px 4px #00000026;
 border-radius: 4px;
 opacity: 1;
 }
+.aktivaceKolonky:hover{
+    box-shadow: 0px 1px 4px #0000004D;
+}
 
 /*CSS pro dotazy*/
 #dotazy{
@@ -686,6 +715,10 @@ box-shadow: 0px 1px 4px #00000026;
 border-radius: 4px;
 opacity: 1;
 }
+.dotaz:hover{
+    box-shadow: 0px 1px 8px #0000004D;
+}
+
 #dotazyPodminky{
     padding-top: 42px;
     padding-left: 560px;
@@ -698,12 +731,16 @@ opacity: 1;
     color: #A4A4A4;
     opacity: 1;
 }
+#dotazyPodminky:hover{
+    color: #0094E7;
+}
 .dotazySipka{
 width: 20px;
 height: 21px;
 background: transparent url('img/icons-l-arrow-down.svg') 0% 0% no-repeat padding-box;
 opacity: 1;
 }
+
 .dotazySipkaObal{
     padding-left: 15px; 
     padding-top: 10px; 
@@ -801,7 +838,6 @@ font-size: 14px;
 #vipTlacitko{
     margin-top: 40px;
     margin-left: 562px;
-    padding-top: 253;
     width: 186px;
     height: 42px;
     background: var(--green-primary-button-bg-) 0% 0% no-repeat padding-box;
@@ -809,6 +845,11 @@ font-size: 14px;
     box-shadow: 0px 1px 4px #00000026;
     border-radius: 4px;
     opacity: 1;
+}
+#vipTlacitko:hover{
+    background: var(--green-secondary) 0% 0% no-repeat padding-box;
+background: #84B517 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 8px #0000004D;
 }
 
 #konec{

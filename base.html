@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <title>LP ALza Premium</title>
 </head>
 
@@ -137,7 +138,7 @@
                                 <div class="elipsaText">1</div>
                             </div>
                             <div id="fungovaniObrazek1"></div>
-                            <div class="fungovaniText">Pro aktivaci služby se <span style="color: #0094E7; text-decoration: underline;">přihlaste</span> <br>ke svému účtu na Alza.cz</div>
+                            <div class="fungovaniText">Pro aktivaci služby se <span  class="modreOdkazy">přihlaste</span> <br>ke svému účtu na Alza.cz</div>
                         </div>
                         <div class="fungovaniObal">
                             <div class="elipsaObal">
@@ -158,7 +159,7 @@
                                 <div class="elipsaText">4</div>
                             </div>
                             <div id="fungovaniObrazek4"></div>
-                            <div class="fungovaniText">Členství můžete spravovat a kdykoliv zrušit v sekci <span  style="color: #0094E7; text-decoration: underline;">Moje Alza Premium</span>.</div>
+                            <div class="fungovaniText">Členství můžete spravovat a kdykoliv zrušit v sekci <span  class="modreOdkazy">Moje Alza Premium</span>.</div>
                         </div>
 
                     </div>
@@ -179,41 +180,42 @@
                     </div>
                     <div id="dotazy">
                         <div id="dotazyNadpis">Nejčastěji kladené dotazy</div>
-                        <div class="dotaz" style="margin-top: 44px;">
-                            <div class="dotazySipkaObal"><div class="dotazySipka"></div></div>
-                            <div class="dotazyText">Co je to Alza Premium?<div></div></div>
+
+                        <div class="dotaz" style="margin-top: 44px;"  id="dotaz1" onclick="klikDotaz1()">
+                            <div class="dotazySipkaObal"><div class="dotazySipka" id="sipka1"></div></div>
+                            <div class="dotazyText" id="text1">Co je to Alza Premium?</div>
                         </div>
-                        <div class="dotaz">
-                            <div class="dotazySipkaObal"><div class="dotazySipka"></div></div>
-                            <div class="dotazyText">Na jaké zboží se vztahuje doprava zdarma?</div>
+                        <div class="dotaz" id="dotaz2" onclick="klikDotaz2()">
+                            <div class="dotazySipkaObal"><div class="dotazySipka" id="sipka2"></div></div>
+                            <div class="dotazyText" id="text2">Na jaké zboží se vztahuje doprava zdarma?</div>
                         </div>
-                        <div class="dotaz">
-                            <div class="dotazySipkaObal"><div class="dotazySipka"></div></div>
-                            <div class="dotazyText">Na jaká odběrová místa se vztahuje doprava zdarma?</div>
+                        <div class="dotaz" id="dotaz3"  onclick="klikDotaz3()">
+                            <div class="dotazySipkaObal"><div class="dotazySipka" id="sipka3"></div></div>
+                            <div class="dotazyText" id="text3">Na jaká odběrová místa se vztahuje doprava zdarma?</div>
                         </div>
-                        <div class="dotaz">
-                            <div class="dotazySipkaObal"><div class="dotazySipka"></div></div>
-                            <div class="dotazyText">Jak si můžu členství aktivovat?</div>
+                        <div class="dotaz" id="dotaz4" onclick="klikDotaz4()">
+                            <div class="dotazySipkaObal"><div class="dotazySipka" id="sipka4"></div></div>
+                            <div class="dotazyText" id="text4">Jak si můžu členství aktivovat?</div>
                         </div>
-                        <div class="dotaz">
-                            <div class="dotazySipkaObal"><div class="dotazySipka"></div></div>
-                            <div class="dotazyText">Kolik Alza Premium stojí a na jak dlouho si jej platím?</div>
+                        <div class="dotaz" id="dotaz5" onclick="klikDotaz5()">
+                            <div class="dotazySipkaObal"><div class="dotazySipka" id="sipka5"></div></div>
+                            <div class="dotazyText" id="text5">Kolik Alza Premium stojí a na jak dlouho si jej platím?</div>
                         </div>
-                        <div class="dotaz">
-                            <div class="dotazySipkaObal"><div class="dotazySipka"></div></div>
-                            <div class="dotazyText">Můžu si zkusit program zadarmo?</div>
+                        <div class="dotaz" id="dotaz6" onclick="klikDotaz6()">
+                            <div class="dotazySipkaObal"><div class="dotazySipka" id="sipka6"></div></div>
+                            <div class="dotazyText" id="text6">Můžu si zkusit program zadarmo?</div>
                         </div>
-                        <div class="dotaz">
-                            <div class="dotazySipkaObal"><div class="dotazySipka"></div></div>
-                            <div class="dotazyText">Bude se mi automaticky obnovovat členství?</div>
+                        <div class="dotaz" id="dotaz7" onclick="klikDotaz7()">
+                            <div class="dotazySipkaObal"><div class="dotazySipka" id="sipka7"></div></div>
+                            <div class="dotazyText" id="text7">Bude se mi automaticky obnovovat členství?</div>
                         </div>
-                        <div class="dotaz">
-                            <div class="dotazySipkaObal"><div class="dotazySipka"></div></div>
-                            <div class="dotazyText">Jak si můžu členství zrušit?</div>
+                        <div class="dotaz" id="dotaz8" onclick="klikDotaz8()">
+                            <div class="dotazySipkaObal"><div class="dotazySipka" id="sipka8"></div></div>
+                            <div class="dotazyText" id="text8">Jak si můžu členství zrušit?</div>
                         </div>
-                        <div class="dotaz">
-                            <div class="dotazySipkaObal"><div class="dotazySipka"></div></div>
-                            <div class="dotazyText">V minulosti již Alza Premium existoval, je nějaký rozdíl?</div>
+                        <div class="dotaz" id="dotaz9" onclick="klikDotaz9()">
+                            <div class="dotazySipkaObal"><div class="dotazySipka" id="sipka9"></div></div>
+                            <div class="dotazyText" id="text9">V minulosti již Alza Premium existoval, je nějaký rozdíl?</div>
                         </div>
                         <div id="dotazyPodminky">Kompletní podmínky programu</div>
                     </div>
