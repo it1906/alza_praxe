@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icons_f-ringbell" data-name="icons/f-ringbell" clip-path="url(#clip-path)">
+    <rect id="Rectangle" width="20" height="20" fill="none"/>
+    <path id="f-ringbell" d="M12,16a2,2,0,0,1-4,0s0,0,0,0H4a.881.881,0,0,1-1-1c0-1,2-1,2-3V7Q5,4,9,3a.891.891,0,0,1,1-1,.882.882,0,0,1,1,1q4,1,4,4v5c0,2,2,2,2,3a.885.885,0,0,1-1,1H12Zm-2,1a1,1,0,0,0,1-1H9A1,1,0,0,0,10,17Z" fill="#00275b" fill-rule="evenodd"/>
+  </g>
+</svg>

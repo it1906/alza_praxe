@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21.488" viewBox="0 0 20 21.488">
+  <g id="icons_l-arrow-down" data-name="icons/l-arrow-down" transform="translate(0 0)">
+    <path id="l-arrow" d="M1,0A1,1,0,0,0,1,2h9v9a1,1,0,0,0,2,0V1a1,1,0,0,0-1-1Z" transform="translate(18.481 8.485) rotate(135)" fill="#0094e7"/>
+    <rect id="Rectangle" width="20" height="20" transform="translate(0 1.488)" fill="none"/>
+  </g>
+</svg>

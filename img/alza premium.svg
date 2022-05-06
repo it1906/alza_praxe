@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="alza_premium" data-name="alza premium" transform="translate(-170 -248.962)">
+    <circle id="Ellipse_488" data-name="Ellipse 488" cx="20" cy="20" r="20" transform="translate(170 248.962)" fill="#af1528"/>
+    <g id="icons_f-crown" data-name="icons/f-crown" transform="translate(176 254.962)">
+      <rect id="Rectangle" width="28" height="28" fill="none"/>
+      <path id="f-crown" d="M4.382,18.2H22.34v1.381a1.381,1.381,0,0,1-1.381,1.381H5.763a1.381,1.381,0,0,1-1.381-1.382ZM22.34,16.814H4.381L3,8.526l5.526,2.763L13.36,3,18.2,11.288l5.526-2.763Z" transform="translate(1.144 1.144)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

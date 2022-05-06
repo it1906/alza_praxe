@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="16" viewBox="0 0 41 16">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M0,0H21V16H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3360" data-name="Group 3360" transform="translate(-1547)">
+    <g id="cz" transform="translate(1547)">
+      <path id="Shape-2" data-name="Shape" d="M0,0H21V16H0Z" fill="none"/>
+      <g id="cz-2" data-name="cz" clip-path="url(#clip-path)">
+        <g id="Group" transform="translate(-1)">
+          <path id="Shape-3" data-name="Shape" d="M0,0H22.207V8H0Z" transform="translate(0 8)" fill="#e80000"/>
+          <path id="Shape-4" data-name="Shape" d="M0,0H22.207V8H0Z" fill="#fff"/>
+          <path id="Shape-5" data-name="Shape" d="M0,0,11.8,8.011l-11.8,8Z" transform="translate(1)" fill="#00006f"/>
+        </g>
+      </g>
+    </g>
+    <g id="icons_l-arrow-down" data-name="icons/l-arrow-down" transform="translate(1578 3)">
+      <rect id="Rectangle_840" data-name="Rectangle 840" width="10" height="10" fill="#fff" opacity="0"/>
+      <path id="Path_4938" data-name="Path 4938" d="M2.653,5.674a.521.521,0,0,0,0,.737L6.115,9.874a.415.415,0,0,0,.588,0l3.462-3.462a.521.521,0,1,0-.737-.737L6.407,8.691,3.386,5.67A.519.519,0,0,0,2.653,5.674Z" transform="translate(-1.499 -2.52)" fill="#222"/>
+    </g>
+  </g>
+</svg>

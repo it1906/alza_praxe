@@ -1,0 +1,880 @@
+body{
+top: 0px;
+left: 0px;
+width: 1920px;
+height: 3520px;
+}
+.row{
+    padding-left: 305px;
+}
+.strikediag {
+    background: linear-gradient(to left top, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%);
+  }
+#pozadi{
+top: 350px;
+left: 0px;
+width: 1920px;
+height: 3520px;
+background-color: #BAE2FC;
+opacity: 1;
+}
+#pruhledne{
+top: 0px;
+left: 0px;
+width: 1920px;
+height: 350px;
+background: transparent url('img/BG _Gradient.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+#hlava{
+    top: 15px;
+    left: 305px;
+    padding-top:22px ;
+    width: 1310px;
+    height: 97px;
+    opacity: 1;
+    background-color: white;
+}
+#hlavaLogo{
+float: left;
+width: 223px;
+height: 62px;
+background: transparent url('img/Logo.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#hlavaMoznosti{
+    margin-left: 570px;
+    height: 16px;
+}
+.oddelovac{
+    float: left;
+    color: #D2D2D2;
+}
+#hlavaMoznosti1{
+    margin-top: 2px;
+    margin-right: 7px;
+    float: left;
+height: 16px;
+color: var(--red-primary);
+text-align: left;
+font: normal normal normal 13px/16px Verdana;
+letter-spacing: 0px;
+color: #C91F28;
+opacity: 1;
+}
+#hlavaMoznosti2{
+    margin-top: 2px;
+    margin-left: 9px;
+    margin-right: 7px;
+    float: left;
+    height: 16px;
+    color: var(--blue-primary);
+    text-align: left;
+    font: normal normal normal 13px/16px Verdana;
+    letter-spacing: 0px;
+    color: #00275B;
+    opacity: 1;
+}
+#hlavaMoznosti3{
+    margin-left: 7px;
+    margin-right: 9px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: transparent url('img/ikona_odhlaseni.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#hlavaMoznosti4{
+    margin-left: 9px;
+    margin-right: 8px;
+    float: left;
+    margin-top: 2px;
+    height: 16px;
+    color: var(--blue-primary);
+    text-align: left;
+    font: normal normal normal 13px/16px Verdana;
+    letter-spacing: 0px;
+    color: #00275B;
+    opacity: 1;
+}
+#hlavaMoznosti5{
+    margin-left: 9px;
+    margin-right: 8px;
+    float: left;
+    margin-top: 2px;
+    height: 16px;
+    color: var(--blue-primary);
+    text-align: left;
+    font: normal normal normal 13px/16px Verdana;
+    letter-spacing: 0px;
+    color: #00275B;
+    opacity: 1;
+}
+#hlavaMoznosti6{
+    margin-left: 9px;
+    margin-right: 8px;
+    float: left;
+    margin-top: 2px;
+    height: 16px;
+    color: var(--blue-primary);
+    text-align: left;
+    font: normal normal normal 13px/16px Verdana;
+    letter-spacing: 0px;
+    color: #00275B;
+    opacity: 1;
+}
+#hlavaMoznosti7{
+    margin-right: 9px;
+    margin-left: 9px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: transparent url('img/ikona_zvonek.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#hlavaMoznosti8{
+    margin-top: 2px;
+    margin-left: 10px;
+    float: left;
+    width: 41px;
+    height: 16px;
+    background: transparent url('img/Group 3360.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#hledaniHlavni{
+margin-top: 15px;
+padding-top: 12px;
+padding-left: 50px;
+float: left;
+width: 852px;
+height: 63px;
+opacity: 1;
+}
+#hledaniBar{
+float: left;
+width: 752px;
+height: 40px;
+background: var(--white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E8E8E8;
+border-radius: 4px 0px 0px 4px;
+opacity: 1;
+}
+#hledaniLupaIkonka{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+    width: 20px;
+height: 20px;
+background: transparent url('img/icon - search.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#hledaniText{
+    margin-top: 10px;
+    float: left;
+    height: 16px;
+    text-align: left;
+    font-family:Roboto;
+    font-size: 16px;
+    letter-spacing: 0.35px;
+    color: #808080;
+    opacity: 1;
+}
+#hledaniTlacitko{
+    font-family: Roboto;
+    padding-top: 10px;
+    text-align: center;
+    float: left;
+    width: 81px;
+    height: 32px;
+    background: var(--blue-primary) 0% 0% no-repeat padding-box;
+    background: #00275B 0% 0% no-repeat padding-box;
+    border-radius: 0px 4px 4px 0px;
+    opacity: 1;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+}
+
+#kosikHlavni{
+    margin-top: 15px;
+    top: 21px;
+    height: 63px;
+    width: 175px;
+    float: left;
+}
+#kosikObal{
+    margin-top: 12px;
+    height: 40px;
+background: var(--white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #BAE2FC;
+border-radius: 4px;
+opacity: 1;
+}
+
+#vahaIkona{
+    margin-top: 7px;
+    margin-left: 10px;
+    float: left;
+    width: 26px;
+    height: 26px;
+
+    background: transparent url('img/icons-f-compare.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#srdceikona{
+    margin-top: 7px;
+    margin-left: 10px;
+    float: left;
+    width: 26px;
+    height: 26px;
+    /* UI Properties */
+    background: transparent url('img/icons-f-hearth.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#kosikIkona{
+    margin-top: 7px;
+    margin-left: 10px;
+    float: left;
+    width: 26px;
+    height: 26px;
+    background: transparent url('img/icons-f-basket.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#kosikText{
+    margin-top: 12px;
+    margin-left: 10px;
+    float: left;
+    color: var(--blue-primary);
+    text-align: left;
+    font-family:Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.35px;
+    color: #00275B;
+    opacity: 1;
+}
+#moznostiText{
+color: var(--blue-primary);
+text-align: left;
+font-family: Verdana;
+font-size: 13px;
+letter-spacing: 0px;
+color: #00275B;
+opacity: 1;
+margin-right: 8px;
+}
+.moznostiObrazky{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#lista{
+    width: 1310px;
+height: 5px;
+background: var(--blue-primary) 0% 0% no-repeat padding-box;
+background: #00275B 0% 0% no-repeat padding-box;
+border-radius: 5px 5px 0px 0px;
+opacity: 1;
+}
+
+/*CSS pro oddil premium*/
+#premium{
+width: 1310px;
+height: 449px;
+/* UI Properties */
+background: var(--grey1) 0% 0% no-repeat padding-box;
+background: #F4F5F5 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#premiumText{
+float: left;
+width: 520px;
+height: 374px;
+opacity: 1;
+margin-top: 65px;
+}
+#premiumAlzak{
+margin-top: 46px;
+margin-right: 75px;
+float: left;
+width: 650px;
+height: 374px;
+background: transparent url('img/Mask Group 66.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#premiumLogo{
+width: 300px;
+height: 51px;
+background: transparent url('img/Logo-Color-Alza-premium.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#premiumNeomezeneNakupy{
+padding-top: 30px;
+height: 126px;
+color: var(--grey6-dark-text-text-in-white-button-);
+text-align: left;
+font-family: Roboto;
+font-size: 50px;
+font-weight: bold;
+letter-spacing: 0px;
+color: #212121;
+opacity: 1;
+line-height: 68px;
+}
+.clenstvi{
+margin-top: 50px;
+margin-right: 15px;
+float:left;
+width: 194px;
+height: 61px;
+background: var(--white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 4px #00000026;
+border-radius: 4px;
+opacity: 1;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 11px;
+}
+#premiumObal{
+    height: 69px;
+}
+.clenstviText{
+font-size: 14px;
+text-align: center;
+letter-spacing: 0px;
+line-height: 22px;
+}
+.premiumClenstviTextSpan{
+color: var(--grey6-dark-text-text-in-white-button-);
+text-align: center;
+font-family:Roboto;
+font-size:14px;
+font-weight: 500;
+letter-spacing: 0px;
+color: #212121;
+}
+.premiumClenstviTextCena{
+color: var(--red-primary-light-button-bg-price-red-text-);
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+letter-spacing: 0px;
+color: #E9242E;
+font-weight: 400;
+}
+#premiumClenstviTextSleva{
+    color: var(--green-secondary);
+    text-align: center;
+    font-family:Roboto;
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #84B517;
+}
+
+/*CSS pro oddil vyzvednuti*/
+#vyzvednuti{
+width: 1310px;
+height: 621px;
+background: var(--white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#kde_vyzvednout{
+color: var(--blue-primary);
+text-align: center;
+font: normal normal bold 30px/72px Roboto;
+letter-spacing: 0px;
+color: #00275B;
+opacity: 1;
+padding-top: 65px;
+}
+#pobocky{
+    padding-left: 65px;
+}
+.pobockaVarianta{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left;
+width: 280px;
+height: 176px;
+background: var(--white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 8px #0000004D;
+border-radius: 4px;
+opacity: 1;
+}
+.pobockaVariantaObrazky{
+margin-top: 15px;
+margin-left: 120px;
+}
+.pobockaVariantaJmeno{
+    padding-bottom: 14px;
+    text-align: left;
+    margin-top: 12px;
+    height: 16px;
+    color: var(--blue-primary);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #00275B;
+    opacity: 1;
+    color: var(--blue-primary);
+text-align: left;
+font: normal normal 500 14px/21px Roboto;
+letter-spacing: 0px;
+color: #00275B;
+}
+.pobockaVariantaJmenoCislo{
+    font-weight: 400;
+}
+.pobockaVariantaCena{
+float: left;
+height: 16px;
+color: var(--grey6-dark-text-text-in-white-button-);
+text-align: left;
+font: normal normal normal 14px/22px Roboto;
+letter-spacing: 0px;
+color: #212121;
+opacity: 1;
+}
+.pobockaVariantaKorunka{
+    margin-left: 15px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: transparent url('img/icons-f-crown.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.pobockaVariantaZdarma{
+    margin-left: 7px;
+    float: left;
+    width: 47px;
+    height: 16px;
+    color: var(--green-secondary);
+    text-align: left;
+    font: normal normal 500 14px/22px Roboto;
+    letter-spacing: 0px;
+    color: #84B517;
+    opacity: 1;
+}
+.pobockaVariantaPoznamka{
+    margin-left: 15px;
+    margin-top: 27px;
+    width: 250px;
+    height: 35px;
+    color: var(--grey5-disabled-link-);
+    text-align: center;
+    font: normal normal normal 12px/21px Roboto;
+    letter-spacing: 0px;
+    color: #A4A4A4;
+    opacity: 1;
+}
+#pobockaVariantaObrazek1{
+    width: 40px;
+    height: 40px;
+    background: transparent url('img/vyzvednuti/Group 8933.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#pobockaVariantaObrazek2{
+    width: 40px;
+    height: 40px;
+    background: transparent url('img/vyzvednuti/Group 8934.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#pobockaVariantaObrazek3{
+    width: 40px;
+    height: 40px;
+    background: transparent url('img/vyzvednuti/Group 8937.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#pobockaVariantaObrazek4{
+    width: 40px;
+    height: 40px;
+    background: transparent url('img/vyzvednuti/alza-point-samolepka-vertikalni.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#pobockaVariantaObrazek5{
+    width: 40px;
+    height: 40px;
+    background: transparent url('img/vyzvednuti/Group 8938.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#pobockaVariantaObrazek6{
+    width: 40px;
+    height: 40px;
+    background: transparent url('img/vyzvednuti/Group 8936.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+
+
+.obrazky{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*CSS pro oddil fungovani*/
+#fungovani{
+top: 1182px;
+left: 305px;
+width: 1310px;
+height: 396px;
+background: var(--white) 0% 0% no-repeat padding-box;
+background: #F8F8F8 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#fungovaniNadpis{
+padding-left: 65px;
+padding-top: 65px;
+width: 1180px;
+height: 35px;
+color: var(--blue-primary);
+text-align: center;
+letter-spacing: 0px;
+color: #00275B;
+font-size: 30px;
+font-family: Roboto;
+font-weight: bold;
+}
+.fungovaniObal{
+margin-right: 20px;
+float: left;
+width: 280px;
+height: 197px;
+margin-top: 34px;
+}
+.elipsaObal{
+    margin-top: 15px;
+    margin-left: 125px;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+background: var(--blue-secondary-button-bg-text-link-) 0% 0% no-repeat padding-box;
+background: #0094E7 0% 0% no-repeat padding-box;
+}
+.elipsaText{
+padding-left: 11px;
+padding-top: 6px;
+width: 8px;
+height: 16px;
+text-align: left;
+font-size: 14px;
+font-family: Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+#fungovaniObrazek1{
+    margin-top: 10px;
+    margin-left: 108px;
+    width: 64px;
+    height: 64px;
+    background: transparent url('img/Group 7432.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#fungovaniObrazek2{
+    margin-top: 10px;
+    margin-left: 108px;
+    width: 64px;
+    height: 64px;
+    background: transparent url('img/Group 7468.svg') 0% 0% no-repeat padding-box;
+}
+#fungovaniObrazek3{
+    margin-top: 10px;
+    margin-left: 108px;
+    width: 64px;
+    height: 64px;
+    background: transparent url('img/Group 7435.svg') 0% 0% no-repeat padding-box;
+}
+#fungovaniObrazek4{
+    margin-top: 10px;
+    margin-left: 108px;
+    width: 64px;
+    height: 64px;
+    background: transparent url('img/Group 7407.svg') 0% 0% no-repeat padding-box;
+}
+.fungovaniText{
+margin: 15px;
+width: 250px;
+height: 48px;
+text-align: center;
+font: normal normal normal 14px/24px Roboto;
+letter-spacing: 0px;
+opacity: 1;
+}
+
+/*CSS pro oddil aktivace premium*/
+#aktivace{
+width: 1310px;
+height: 343px;
+background: var(--white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+#aktivaceKorunka{
+height: 40px;
+background: transparent url('img/alza premium.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#obalAktivaceKorunka{
+padding-top: 65px;
+margin-left: 635px;
+}
+#aktivaceNadpis{
+height: 35px;
+color: var(--blue-primary);
+text-align: center;
+font: normal normal bold 30px/72px Roboto;
+letter-spacing: 0px;
+color: #00275B;
+opacity: 1;
+}
+.aktivaceKolonky{
+margin-top: 40px;
+float: left;
+width: 194px;
+height: 61px;
+background: var(--white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 4px #00000026;
+border-radius: 4px;
+opacity: 1;
+}
+
+/*CSS pro dotazy*/
+#dotazy{
+top: 1921px;
+left: 305px;
+width: 1310px;
+height: 726px;
+background: var(--grey0) 0% 0% no-repeat padding-box;
+background: #F8F8F8 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#dotazyNadpis{
+padding-left: 65px;
+padding-top: 65px;
+width: 1180px;
+height: 35px;
+text-align: center;
+font: normal normal bold 30px Roboto;
+letter-spacing: 0px;
+color: #00275B;
+opacity: 1;
+}
+.dotaz{
+margin-left: 69px;
+margin-bottom: 10px;
+width: 1180px;
+height: 42px;
+background: var(--white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 4px #00000026;
+border-radius: 4px;
+opacity: 1;
+}
+#dotazyPodminky{
+    padding-top: 42px;
+    padding-left: 560px;
+    height: 16px;
+    color: var(--grey5-disabled-link-);
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 14px Roboto;
+    letter-spacing: 0px;
+    color: #A4A4A4;
+    opacity: 1;
+}
+.dotazySipka{
+width: 20px;
+height: 21px;
+background: transparent url('img/icons-l-arrow-down.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.dotazySipkaObal{
+    padding-left: 15px; 
+    padding-top: 10px; 
+    float: left;
+}
+.dotazyText{
+    float: left;
+    padding-left: 10px;
+    padding-top: 13px;
+height: 16px;
+color: var(--black);
+text-align: left;
+font: normal normal 400 14px/22px Roboto;
+letter-spacing: 0px;
+color: #000000;
+}
+/*CSS pro vip sekci*/
+#vip{
+top: 2647px;
+left: 305px;
+width: 1310px;
+height: 544px;
+background: var(--white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#vipNadpis{
+padding-top: 65px;
+height: 35px;
+color: var(--blue-primary);
+text-align: center;
+font: normal normal bold 30px Roboto;
+letter-spacing: 0px;
+color: #00275B;
+opacity: 1;
+}
+#vipText{
+padding-top: 24px;
+height: 20px;
+color: var(--grey6-dark-text-text-in-white-button-);
+text-align: center;
+letter-spacing: 0px;
+color: #212121;
+opacity: 1;
+}
+#vipTextPismo{
+color: var(--grey6-dark-text-text-in-white-button-);
+text-align: center;
+font-family:Roboto;
+letter-spacing: 0px;
+color: #212121;
+}
+#vipKolonky{
+    padding-left: 65px;
+    padding-top: 40px;
+    text-align: center;
+    height: 213px;
+}
+#vipTlacitkoText{
+    padding-top: 13px;
+    height: 16px;
+    color: var(--white);
+    text-align: center;
+    font-family: Roboto, Medium;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.vipBox{
+    margin-right: 20px;
+    float: left;
+    width: 280px;
+height: 213px;
+background: var(--white) 0% 0% no-repeat padding-box;
+border: 1px solid var(--grey3);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+opacity: 1;
+}
+.vipBoxText{
+    margin-top: 11px;
+padding-left: 15px;
+padding-right: 15px;
+height: 75px;
+color: var(--grey6-dark-text-text-in-white-button-);
+text-align: center;
+font-family: Roboto;
+letter-spacing: 0px;
+color: #212121;
+opacity: 1;
+font-size: 14px;
+}
+#vipTlacitko{
+    margin-top: 40px;
+    margin-left: 562px;
+    padding-top: 253;
+    width: 186px;
+    height: 42px;
+    background: var(--green-primary-button-bg-) 0% 0% no-repeat padding-box;
+    background: #A1C900 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 4px #00000026;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+#konec{
+top: 3191px;
+left: 305px;
+width: 1310px;
+height: 327px;
+opacity: 1;
+background: #b91f2c 0% 0% no-repeat padding-box;
+}
+#konecNadpis{
+    padding-top: 69px;
+height: 35px;
+color: var(--white);
+text-align: center;
+font-family:Roboto;
+font-weight: bold;
+font-size: 30px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+#konecNadpisText{
+    margin-top: 33px;
+    padding-left: 465px;
+    width: 380px;
+height: 45px;
+color: var(--white);
+text-align: center;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+font-family:Roboto;
+}
+#facebook{
+    float: left;
+    width: 49px;
+    height: 50px;
+    background: #4267b2 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 576px;
+}
+#twitter{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: #1DA1F2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 5px #00000026;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 5px;
+}
+#mail{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: var(--green-primary-button-bg-) 0% 0% no-repeat padding-box;
+    background: #A1C900 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 5px #00000026;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 5px;
+}
+.obrazkySocSite{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
