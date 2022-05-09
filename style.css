@@ -2,7 +2,6 @@ body {
     top: 0px;
     left: 0px;
     width: 1920px;
-    height: 3520px;
 }
 
 .row {
@@ -17,7 +16,7 @@ body {
     top: 350px;
     left: 0px;
     width: 1920px;
-    height: 3520px;
+    height: 3540px;
     background-color: #BAE2FC;
     opacity: 1;
 }
@@ -751,7 +750,6 @@ body {
     top: 1921px;
     left: 305px;
     width: 1310px;
-    height: 726px;
     background: var(--grey0) 0% 0% no-repeat padding-box;
     background: #F8F8F8 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -798,7 +796,8 @@ body {
 }
 
 #dotazyPodminky {
-    margin-bottom: 65px;
+    padding-bottom: 65px;
+    bottom: 65px;
     padding-top: 42px;
     padding-left: 560px;
     height: 16px;
