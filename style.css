@@ -68,6 +68,7 @@ body {
     font: normal normal normal 13px/16px Verdana;
     letter-spacing: 0px;
     color: #C91F28;
+    cursor:pointer;
     opacity: 1;
 }
 
@@ -82,6 +83,7 @@ body {
     font: normal normal normal 13px/16px Verdana;
     letter-spacing: 0px;
     color: #00275B;
+    cursor:pointer;
     opacity: 1;
 }
 
@@ -89,6 +91,7 @@ body {
     margin-left: 7px;
     margin-right: 9px;
     float: left;
+    cursor:pointer;
     width: 20px;
     height: 20px;
     background: transparent url('img/ikona_odhlaseni.svg') 0% 0% no-repeat padding-box;
@@ -106,6 +109,7 @@ body {
     font: normal normal normal 13px/16px Verdana;
     letter-spacing: 0px;
     color: #00275B;
+    cursor:pointer;
     opacity: 1;
 }
 
@@ -120,6 +124,7 @@ body {
     font: normal normal normal 13px/16px Verdana;
     letter-spacing: 0px;
     color: #00275B;
+    cursor:pointer;
     opacity: 1;
 }
 
@@ -134,6 +139,7 @@ body {
     font: normal normal normal 13px/16px Verdana;
     letter-spacing: 0px;
     color: #00275B;
+    cursor:pointer;
     opacity: 1;
 }
 
@@ -145,6 +151,7 @@ body {
     height: 20px;
     background: transparent url('img/ikona_zvonek.svg') 0% 0% no-repeat padding-box;
     opacity: 1;
+    cursor:pointer;
 }
 
 #hlavaMoznosti8 {
@@ -155,6 +162,7 @@ body {
     height: 16px;
     background: transparent url('img/Group 3360.svg') 0% 0% no-repeat padding-box;
     opacity: 1;
+    cursor:pointer;
 }
 
 #hledaniHlavni {
@@ -367,8 +375,6 @@ body {
     box-shadow: 0px 1px 4px #00000026;
     border-radius: 4px;
     opacity: 1;
-    padding-left: 15px;
-    padding-right: 15px;
 
 }
 
@@ -376,46 +382,14 @@ body {
     box-shadow: 0px 1px 8px #0000004D;
 }
 
-#premiumObal {
-    height: 69px;
-}
-
 .clenstviText {
-    font-size: 14px;
     text-align: center;
     letter-spacing: 0px;
-    line-height: 22px;
+    line-height: 20px;
     padding-top: 11px;
-}
-
-.premiumClenstviTextSpan {
-    color: var(--grey6-dark-text-text-in-white-button-);
-    text-align: center;
-    font-family: Roboto;
+    padding-bottom: 11px;
     font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0px;
-    color: #212121;
-}
-
-.premiumClenstviTextCena {
-    color: var(--red-primary-light-button-bg-price-red-text-);
-    text-align: center;
     font-family: Roboto;
-    font-size: 14px;
-    letter-spacing: 0px;
-    color: #E9242E;
-    font-weight: 400;
-}
-
-#premiumClenstviTextSleva {
-    color: var(--green-secondary);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0px;
-    color: #84B517;
 }
 
 /*CSS pro oddil vyzvednuti*/
@@ -456,6 +430,7 @@ body {
 
 .pobockaVarianta:hover {
     box-shadow: 0px 1px 8px #0000004D;
+    cursor:pointer;
 }
 
 .pobockaVariantaObrazky {
@@ -696,6 +671,7 @@ body {
     font: normal normal normal 14px/24px Roboto;
     letter-spacing: 0px;
     color: #1653A4;
+    cursor:pointer;
 }
 
 /*CSS pro oddil aktivace premium*/
@@ -776,7 +752,6 @@ body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 4px #00000026;
     border-radius: 4px;
-    opacity: 1;
 }
 
 .dotazReplaced {
@@ -788,11 +763,15 @@ body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 4px #00000026;
     border-radius: 4px;
-    opacity: 1;
+
+}
+.dotazReplaced:hover{
+    cursor:pointer;
 }
 
 .dotaz:hover {
     box-shadow: 0px 1px 8px #0000004D;
+    cursor:pointer;
 }
 
 #dotazyPodminky {
@@ -811,6 +790,7 @@ body {
 }
 
 #podminkaText:hover {
+    cursor:pointer;
     color: #0094E7;
     text-decoration: underline;
 }
@@ -958,6 +938,8 @@ body {
 }
 
 #vipTlacitko {
+    font-family: Roboto;
+    font-weight: 400;
     margin-top: 40px;
     margin-left: 562px;
     width: 186px;
@@ -973,6 +955,7 @@ body {
     background: var(--green-secondary) 0% 0% no-repeat padding-box;
     background: #84B517 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 8px #0000004D;
+    cursor:pointer;
 }
 
 #konec {
@@ -1016,7 +999,6 @@ body {
     height: 50px;
     background: #4267b2 0% 0% no-repeat padding-box;
     border-radius: 4px;
-    opacity: 1;
     margin-left: 576px;
 }
 
@@ -1027,7 +1009,6 @@ body {
     background: #1DA1F2 0% 0% no-repeat padding-box;
     box-shadow: 0px 2px 5px #00000026;
     border-radius: 4px;
-    opacity: 1;
     margin-left: 5px;
 }
 
@@ -1039,7 +1020,6 @@ body {
     background: #A1C900 0% 0% no-repeat padding-box;
     box-shadow: 0px 2px 5px #00000026;
     border-radius: 4px;
-    opacity: 1;
     margin-left: 5px;
 }
 
