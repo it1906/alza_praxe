@@ -769,6 +769,7 @@ body {
     cursor:pointer;
 }
 
+
 .dotaz:hover {
     box-shadow: 0px 1px 8px #0000004D;
     cursor:pointer;
@@ -804,7 +805,6 @@ body {
 
 .dotazySipkaObal {
     padding-left: 15px;
-    padding-top: 10px;
     float: left;
 }
 
@@ -816,9 +816,8 @@ body {
 }
 
 .dotazyText {
-    float: left;
     padding-left: 10px;
-    padding-top: 13px;
+    float: left;
     height: 16px;
     color: var(--black);
     text-align: left;
@@ -1030,3 +1029,33 @@ body {
 }
 
 /*TESTOVANI KVULI JS*/
+.collapsible {
+    margin-left: 69px;
+    color: #000000;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    width: 1180px;
+    height: 42px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 4px #00000026;
+    padding: 0px;
+    
+  }
+
+  
+    .collapsible:hover {
+    box-shadow: 0px 1px 8px #0000004D;
+    color: #1653A4;
+  }
+  
+  .content {
+    padding-left: 114px;
+    padding-right: 76px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }

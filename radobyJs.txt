@@ -1,0 +1,25 @@
+
+function myFunction() {
+  var div = document.getElementById('test1');
+  var nadpis = document.getElementById("text1");
+  var x = document.getElementById("schovano1");
+
+  if(nadpis.style.color ==="#000000"){
+    nadpis.style.color = "#1653A4";
+  }else {
+    nadpis.style.color = "#000000";
+  }
+
+  if (div.style.height === "42px") {
+    div.style.height = "149px";
+  } else {
+    div.style.height = "42px";
+  }
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+
+}
