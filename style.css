@@ -743,38 +743,6 @@ body {
     opacity: 1;
 }
 
-.dotaz {
-    margin-left: 69px;
-    margin-bottom: 10px;
-    width: 1180px;
-    height: 42px;
-    background: var(--white) 0% 0% no-repeat padding-box;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 1px 4px #00000026;
-    border-radius: 4px;
-}
-
-.dotazReplaced {
-    margin-left: 69px;
-    margin-bottom: 10px;
-    width: 1180px;
-    height: 149px;
-    background: var(--white) 0% 0% no-repeat padding-box;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 1px 4px #00000026;
-    border-radius: 4px;
-
-}
-.dotazReplaced:hover{
-    cursor:pointer;
-}
-
-
-.dotaz:hover {
-    box-shadow: 0px 1px 8px #0000004D;
-    cursor:pointer;
-}
-
 #dotazyPodminky {
     padding-bottom: 65px;
     bottom: 65px;
@@ -795,60 +763,84 @@ body {
     color: #0094E7;
     text-decoration: underline;
 }
-
-.dotazySipka {
+.sipkaObal{
+    float: left;
+    margin-left: 9px;
     width: 20px;
     height: 21px;
-    background: transparent url('img/icons-l-arrow-down.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background: transparent url('img/icons-l-arrow-down.svg');
 }
-
-.dotazySipkaObal {
-    padding-left: 15px;
-    float: left;
+.contentText{
+text-align: left;
+font: normal normal normal 14px/24px Roboto;
+letter-spacing: 0px;
+color: #000000;
+margin-left:45px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
 }
-
-.dotazySipkaObalReplaced {
-    float: left;
-    transform: matrix(-1, 0, 0, -1, 0, 0);
-    margin-left: 15px;
-    margin-top: 10px;
+.dotazText{
+    top: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: right;
 }
-
-.dotazyText {
-    padding-left: 10px;
-    float: left;
-    height: 16px;
-    color: var(--black);
+.collapsible {
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+    width: 1180px;
+    height: 42px;
+    margin-left: 69px;
+    border: none;
+    box-shadow: 0px 1px 4px #00000026;
+    border-radius: 4px;
     text-align: left;
-    font: normal normal 400 14px/22px Roboto;
-    letter-spacing: 0px;
-    color: #000000;
-}
-
-.dotazyTextReplaced {
-    float: left;
-    padding-left: 10px;
-    padding-top: 13px;
-    height: 16px;
-    color: var(--black);
-    text-align: left;
-    font: normal normal 400 14px/22px Roboto;
-    letter-spacing: 0px;
+    font-size: 14px;
+  }
+  .active{
+    box-shadow: 0px -1px 3px 0px #0000004D;
+    border-radius: 4px 4px 0px 0px;
     color: #1653A4;
-}
 
-.dotazObsah {
+  }
+  .collapsible:hover:enabled {
+    background-color: #E8E8E8;
+    box-shadow: 0px 1px 4px #0000004D;
+  }
+  
+  .collapsible:after {
+    bottom: 0;
+    margin-left: 10px;
+    width: 20px;
+    height: 21px;
+    content: ' ';
+    background: transparent url('img/icons-l-arrow-down.svg');
     float: left;
-    width: 1120px;
-    padding-top: 15px;
-    height: 89px;
-    text-align: left;
-    font: normal normal normal 14px/24px Roboto;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-}
+  }
+  
+  .active:after {
+      float: left;
+    bottom: 0;
+    margin-left: 10px;
+    width: 20px;
+    height: 21px;
+    content: ' ';
+    background: transparent url('img/icons-l-arrow-down.svg');
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+
+  }
+  
+  .content {
+    top: 0;
+    width: 1180px;
+    margin-left: 69px;
+    max-height: 0;
+    border: none;
+    box-shadow: 0px 1px 3px 0px #0000004D;
+    border-radius:  0px 0px 4px 4px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+  }
 
 /*CSS pro vip sekci*/
 #vip {
@@ -1029,33 +1021,3 @@ body {
 }
 
 /*TESTOVANI KVULI JS*/
-.collapsible {
-    margin-left: 69px;
-    color: #000000;
-    background-color: #FFFFFF;
-    cursor: pointer;
-    width: 1180px;
-    height: 42px;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 14px;
-    border-radius: 4px;
-    box-shadow: 0px 1px 4px #00000026;
-    padding: 0px;
-    
-  }
-
-  
-    .collapsible:hover {
-    box-shadow: 0px 1px 8px #0000004D;
-    color: #1653A4;
-  }
-  
-  .content {
-    padding-left: 114px;
-    padding-right: 76px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
