@@ -775,7 +775,7 @@ text-align: left;
 font: normal normal normal 14px/24px Roboto;
 letter-spacing: 0px;
 color: #000000;
-margin-left:45px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
+margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
 }
 .dotazText{
     top: 0;
@@ -803,8 +803,7 @@ margin-left:45px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
 
   }
   .collapsible:hover:enabled {
-    background-color: #E8E8E8;
-    box-shadow: 0px 1px 4px #0000004D;
+    background-color: #f0efef;
   }
   
   .collapsible:after {
@@ -841,6 +840,7 @@ margin-left:45px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     transition: max-height 0.2s ease-out;
     background-color: white;
   }
+
 
 /*CSS pro vip sekci*/
 #vip {
