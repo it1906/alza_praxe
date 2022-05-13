@@ -1,11 +1,9 @@
-body {
-    top: 0px;
-    left: 0px;
+html{
     width: 1920px;
 }
-
 .row {
-    padding-left: 305px;
+    width: 69%;
+    padding-left: 15.5%;
 }
 
 .strikediag {
@@ -13,30 +11,21 @@ body {
 }
 
 #pozadi {
-    top: 350px;
-    left: 0px;
-    width: 1920px;
-    height: 3540px;
+    width: 100%;
+    height: 100%;
     background-color: #BAE2FC;
-    opacity: 1;
 }
 
 #pruhledne {
-    top: 0px;
-    left: 0px;
-    width: 1920px;
-    height: 350px;
+    width: 100%;
+    height: 10%;
     background: transparent url('img/BG _Gradient.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #hlava {
-    top: 15px;
-    left: 305px;
     padding-top: 22px;
-    width: 1310px;
+    width: 100%;
     height: 97px;
-    opacity: 1;
     background-color: white;
 }
 
@@ -45,7 +34,6 @@ body {
     width: 223px;
     height: 62px;
     background: transparent url('img/Logo.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #hlavaMoznosti {
@@ -68,8 +56,7 @@ body {
     font: normal normal normal 13px/16px Verdana;
     letter-spacing: 0px;
     color: #C91F28;
-    cursor:pointer;
-    opacity: 1;
+    cursor: pointer;
 }
 
 #hlavaMoznosti2 {
@@ -83,19 +70,17 @@ body {
     font: normal normal normal 13px/16px Verdana;
     letter-spacing: 0px;
     color: #00275B;
-    cursor:pointer;
-    opacity: 1;
+    cursor: pointer;
 }
 
 #hlavaMoznosti3 {
     margin-left: 7px;
     margin-right: 9px;
     float: left;
-    cursor:pointer;
+    cursor: pointer;
     width: 20px;
     height: 20px;
     background: transparent url('img/ikona_odhlaseni.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #hlavaMoznosti4 {
@@ -109,8 +94,7 @@ body {
     font: normal normal normal 13px/16px Verdana;
     letter-spacing: 0px;
     color: #00275B;
-    cursor:pointer;
-    opacity: 1;
+    cursor: pointer;
 }
 
 #hlavaMoznosti5 {
@@ -124,8 +108,7 @@ body {
     font: normal normal normal 13px/16px Verdana;
     letter-spacing: 0px;
     color: #00275B;
-    cursor:pointer;
-    opacity: 1;
+    cursor: pointer;
 }
 
 #hlavaMoznosti6 {
@@ -139,8 +122,7 @@ body {
     font: normal normal normal 13px/16px Verdana;
     letter-spacing: 0px;
     color: #00275B;
-    cursor:pointer;
-    opacity: 1;
+    cursor: pointer;
 }
 
 #hlavaMoznosti7 {
@@ -150,8 +132,7 @@ body {
     width: 20px;
     height: 20px;
     background: transparent url('img/ikona_zvonek.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #hlavaMoznosti8 {
@@ -161,8 +142,7 @@ body {
     width: 41px;
     height: 16px;
     background: transparent url('img/Group 3360.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #hledaniHlavni {
@@ -172,7 +152,6 @@ body {
     float: left;
     width: 852px;
     height: 63px;
-    opacity: 1;
 }
 
 #hledaniBar {
@@ -183,7 +162,6 @@ body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #E8E8E8;
     border-radius: 4px 0px 0px 4px;
-    opacity: 1;
 }
 
 #hledaniLupaIkonka {
@@ -194,7 +172,6 @@ body {
     width: 20px;
     height: 20px;
     background: transparent url('img/icon - search.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #hledaniText {
@@ -206,7 +183,6 @@ body {
     font-size: 16px;
     letter-spacing: 0.35px;
     color: #808080;
-    opacity: 1;
 }
 
 #hledaniTlacitko {
@@ -219,7 +195,6 @@ body {
     background: var(--blue-primary) 0% 0% no-repeat padding-box;
     background: #00275B 0% 0% no-repeat padding-box;
     border-radius: 0px 4px 4px 0px;
-    opacity: 1;
     font-size: 14px;
     letter-spacing: 0px;
     color: #FFFFFF;
@@ -241,7 +216,6 @@ body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #BAE2FC;
     border-radius: 4px;
-    opacity: 1;
 }
 
 #vahaIkona {
@@ -252,7 +226,6 @@ body {
     height: 26px;
 
     background: transparent url('img/icons-f-compare.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #srdceikona {
@@ -263,7 +236,6 @@ body {
     height: 26px;
     /* UI Properties */
     background: transparent url('img/icons-f-hearth.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #kosikIkona {
@@ -273,7 +245,6 @@ body {
     width: 26px;
     height: 26px;
     background: transparent url('img/icons-f-basket.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #kosikText {
@@ -287,7 +258,6 @@ body {
     font-weight: bold;
     letter-spacing: 0.35px;
     color: #00275B;
-    opacity: 1;
 }
 
 #moznostiText {
@@ -297,7 +267,6 @@ body {
     font-size: 13px;
     letter-spacing: 0px;
     color: #00275B;
-    opacity: 1;
     margin-right: 8px;
 }
 
@@ -307,29 +276,26 @@ body {
 }
 
 #lista {
-    width: 1310px;
+    width: 100%;
     height: 5px;
     background: var(--blue-primary) 0% 0% no-repeat padding-box;
     background: #00275B 0% 0% no-repeat padding-box;
     border-radius: 5px 5px 0px 0px;
-    opacity: 1;
 }
 
 /*CSS pro oddil premium*/
 #premium {
-    width: 1310px;
+    width: 100%;
     height: 449px;
     /* UI Properties */
     background: var(--grey1) 0% 0% no-repeat padding-box;
     background: #F4F5F5 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #premiumText {
     float: left;
     width: 520px;
     height: 374px;
-    opacity: 1;
     margin-top: 65px;
 }
 
@@ -340,14 +306,12 @@ body {
     width: 650px;
     height: 374px;
     background: transparent url('img/Mask Group 66.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #premiumLogo {
     width: 300px;
     height: 51px;
     background: transparent url('img/Logo-Color-Alza-premium.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #premiumNeomezeneNakupy {
@@ -360,7 +324,6 @@ body {
     font-weight: bold;
     letter-spacing: 0px;
     color: #212121;
-    opacity: 1;
     line-height: 68px;
 }
 
@@ -368,13 +331,12 @@ body {
     margin-top: 50px;
     margin-right: 15px;
     float: left;
-    width: 194px;
+    width: 37.5%;
     height: 61px;
     background: var(--white) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 4px #00000026;
     border-radius: 4px;
-    opacity: 1;
 
 }
 
@@ -394,11 +356,10 @@ body {
 
 /*CSS pro oddil vyzvednuti*/
 #vyzvednuti {
-    width: 1310px;
+    width: 100%;
     height: 621px;
     background: var(--white) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #kde_vyzvednout {
@@ -407,35 +368,36 @@ body {
     font: normal normal bold 30px/72px Roboto;
     letter-spacing: 0px;
     color: #00275B;
-    opacity: 1;
     padding-top: 65px;
 }
 
 #pobocky {
-    padding-left: 65px;
+    width: 100%;
+
 }
 
 .pobockaVarianta {
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin-bottom: 1.527%;
+    margin-right: 1.527%;
     float: left;
-    width: 280px;
-    height: 176px;
+    width: 21.37%;
+    height: 28.34%;
     background: var(--white) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 8px #00000026;
     border-radius: 4px;
-    opacity: 1;
 }
 
 .pobockaVarianta:hover {
     box-shadow: 0px 1px 8px #0000004D;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .pobockaVariantaObrazky {
     margin-top: 15px;
     margin-left: 120px;
+    width: 40px;
+    height: 40px;
 }
 
 .pobockaVariantaJmeno {
@@ -447,7 +409,6 @@ body {
     text-align: left;
     letter-spacing: 0px;
     color: #00275B;
-    opacity: 1;
     color: var(--blue-primary);
     text-align: left;
     font: normal normal 500 14px/21px Roboto;
@@ -467,7 +428,6 @@ body {
     font: normal normal normal 14px/22px Roboto;
     letter-spacing: 0px;
     color: #212121;
-    opacity: 1;
 }
 
 .pobockaVariantaKorunka {
@@ -476,7 +436,6 @@ body {
     width: 20px;
     height: 20px;
     background: transparent url('img/icons-f-crown.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 .pobockaVariantaZdarma {
@@ -489,7 +448,6 @@ body {
     font: normal normal 500 14px/22px Roboto;
     letter-spacing: 0px;
     color: #84B517;
-    opacity: 1;
 }
 
 .pobockaVariantaPoznamka {
@@ -502,53 +460,31 @@ body {
     font: normal normal normal 12px/21px Roboto;
     letter-spacing: 0px;
     color: #A4A4A4;
-    opacity: 1;
 }
 
 #pobockaVariantaObrazek1 {
-    width: 40px;
-    height: 40px;
     background: transparent url('img/vyzvednuti/Group 8933.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #pobockaVariantaObrazek2 {
-    width: 40px;
-    height: 40px;
     background: transparent url('img/vyzvednuti/Group 8934.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #pobockaVariantaObrazek3 {
-    width: 40px;
-    height: 40px;
     background: transparent url('img/vyzvednuti/Group 8937.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #pobockaVariantaObrazek4 {
-    width: 40px;
-    height: 40px;
     background: transparent url('img/vyzvednuti/alza-point-samolepka-vertikalni.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #pobockaVariantaObrazek5 {
-    width: 40px;
-    height: 40px;
     background: transparent url('img/vyzvednuti/Group 8938.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #pobockaVariantaObrazek6 {
-    width: 40px;
-    height: 40px;
     background: transparent url('img/vyzvednuti/Group 8936.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
-
-
-
 
 .obrazky {
     display: block;
@@ -558,13 +494,10 @@ body {
 
 /*CSS pro oddil fungovani*/
 #fungovani {
-    top: 1182px;
-    left: 305px;
-    width: 1310px;
+    width: 100%;
     height: 396px;
     background: var(--white) 0% 0% no-repeat padding-box;
     background: #F8F8F8 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #fungovaniNadpis {
@@ -609,39 +542,28 @@ body {
     font-family: Roboto;
     letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
+}
+
+.fungovaniObrazky {
+    margin-top: 10px;
+    margin-left: 108px;
+    width: 64px;
+    height: 64px;
 }
 
 #fungovaniObrazek1 {
-    margin-top: 10px;
-    margin-left: 108px;
-    width: 64px;
-    height: 64px;
     background: transparent url('img/Group 7432.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #fungovaniObrazek2 {
-    margin-top: 10px;
-    margin-left: 108px;
-    width: 64px;
-    height: 64px;
     background: transparent url('img/Group 7468.svg') 0% 0% no-repeat padding-box;
 }
 
 #fungovaniObrazek3 {
-    margin-top: 10px;
-    margin-left: 108px;
-    width: 64px;
-    height: 64px;
     background: transparent url('img/Group 7435.svg') 0% 0% no-repeat padding-box;
 }
 
 #fungovaniObrazek4 {
-    margin-top: 10px;
-    margin-left: 108px;
-    width: 64px;
-    height: 64px;
     background: transparent url('img/Group 7407.svg') 0% 0% no-repeat padding-box;
 }
 
@@ -652,7 +574,6 @@ body {
     text-align: center;
     font: normal normal normal 14px/24px Roboto;
     letter-spacing: 0px;
-    opacity: 1;
 }
 
 .modreOdkazy {
@@ -671,23 +592,21 @@ body {
     font: normal normal normal 14px/24px Roboto;
     letter-spacing: 0px;
     color: #1653A4;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /*CSS pro oddil aktivace premium*/
 #aktivace {
-    width: 1310px;
+    width: 100%;
     height: 343px;
     background: var(--white) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
 
 }
 
 #aktivaceKorunka {
     height: 40px;
     background: transparent url('img/alza premium.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #obalAktivaceKorunka {
@@ -702,7 +621,6 @@ body {
     font: normal normal bold 30px/72px Roboto;
     letter-spacing: 0px;
     color: #00275B;
-    opacity: 1;
 }
 
 .aktivaceKolonky {
@@ -714,7 +632,6 @@ body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 4px #00000026;
     border-radius: 4px;
-    opacity: 1;
 }
 
 .aktivaceKolonky:hover {
@@ -723,12 +640,9 @@ body {
 
 /*CSS pro dotazy*/
 #dotazy {
-    top: 1921px;
-    left: 305px;
-    width: 1310px;
+    width: 100%;
     background: var(--grey0) 0% 0% no-repeat padding-box;
     background: #F8F8F8 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #dotazyNadpis {
@@ -740,7 +654,6 @@ body {
     font: normal normal bold 30px Roboto;
     letter-spacing: 0px;
     color: #00275B;
-    opacity: 1;
 }
 
 #dotazyPodminky {
@@ -755,34 +668,40 @@ body {
     font: normal normal normal 14px Roboto;
     letter-spacing: 0px;
     color: #A4A4A4;
-    opacity: 1;
 }
 
 #podminkaText:hover {
-    cursor:pointer;
+    cursor: pointer;
     color: #0094E7;
     text-decoration: underline;
 }
-.sipkaObal{
+
+.sipkaObal {
     float: left;
     margin-left: 9px;
     width: 20px;
     height: 21px;
     background: transparent url('img/icons-l-arrow-down.svg');
 }
-.contentText{
-text-align: left;
-font: normal normal normal 14px/24px Roboto;
-letter-spacing: 0px;
-color: #000000;
-margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
+
+.contentText {
+    text-align: left;
+    font: normal normal normal 14px/24px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-left: 47px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
-.dotazText{
+
+.dotazText {
     top: 0;
     margin-left: 10px;
     margin-top: 5px;
     float: right;
 }
+
 .collapsible {
     background-color: #FFFFFF;
     color: black;
@@ -795,18 +714,19 @@ margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     border-radius: 4px;
     text-align: left;
     font-size: 14px;
-  }
-  .active{
+}
+
+.active {
     box-shadow: 0px -1px 3px 0px #0000004D;
     border-radius: 4px 4px 0px 0px;
     color: #1653A4;
+}
 
-  }
-  .collapsible:hover:enabled {
+.collapsible:hover:enabled {
     background-color: #f0efef;
-  }
-  
-  .collapsible:after {
+}
+
+.collapsible:after {
     bottom: 0;
     margin-left: 10px;
     width: 20px;
@@ -814,10 +734,10 @@ margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     content: ' ';
     background: transparent url('img/icons-l-arrow-down.svg');
     float: left;
-  }
-  
-  .active:after {
-      float: left;
+}
+
+.active:after {
+    float: left;
     bottom: 0;
     margin-left: 10px;
     width: 20px;
@@ -826,31 +746,28 @@ margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     background: transparent url('img/icons-l-arrow-down.svg');
     transform: matrix(-1, 0, 0, -1, 0, 0);
 
-  }
-  
-  .content {
+}
+
+.content {
     top: 0;
     width: 1180px;
     margin-left: 69px;
     max-height: 0;
     border: none;
     box-shadow: 0px 1px 3px 0px #0000004D;
-    border-radius:  0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: max-height 0.3s ease-out;
     background-color: white;
-  }
+}
 
 
 /*CSS pro vip sekci*/
 #vip {
-    top: 2647px;
-    left: 305px;
-    width: 1310px;
+    width: 100%;
     height: 544px;
     background: var(--white) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #vipNadpis {
@@ -861,7 +778,6 @@ margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     font: normal normal bold 30px Roboto;
     letter-spacing: 0px;
     color: #00275B;
-    opacity: 1;
 }
 
 #vipText {
@@ -871,7 +787,6 @@ margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     text-align: center;
     letter-spacing: 0px;
     color: #212121;
-    opacity: 1;
 }
 
 #vipTextPismo {
@@ -898,7 +813,6 @@ margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     font-size: 14px;
     letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
 }
 
 .vipBox {
@@ -911,7 +825,6 @@ margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #E0E0E0;
     border-radius: 4px;
-    opacity: 1;
 }
 
 .vipBoxText {
@@ -924,7 +837,6 @@ margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     font-family: Roboto;
     letter-spacing: 0px;
     color: #212121;
-    opacity: 1;
     font-size: 14px;
 }
 
@@ -939,22 +851,18 @@ margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     background: #A1C900 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 4px #00000026;
     border-radius: 4px;
-    opacity: 1;
 }
 
 #vipTlacitko:hover {
     background: var(--green-secondary) 0% 0% no-repeat padding-box;
     background: #84B517 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 8px #0000004D;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #konec {
-    top: 3191px;
-    left: 305px;
-    width: 1310px;
+    width: 100%;
     height: 327px;
-    opacity: 1;
     background: #b91f2c 0% 0% no-repeat padding-box;
 }
 
@@ -968,7 +876,6 @@ margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     font-size: 30px;
     letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
 }
 
 #konecNadpisText {
@@ -980,7 +887,6 @@ margin-left:47px; margin-right: 15px; margin-bottom: 15px; margin-top: 5px;
     text-align: center;
     letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
     font-family: Roboto;
 }
 
